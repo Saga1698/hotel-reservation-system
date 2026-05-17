@@ -132,7 +132,7 @@ while ($booked = $resultBooked->fetch_assoc()) {
                         name="total_price"
                         class="total-price"
                         value="<?php echo htmlspecialchars($row['total_price']); ?>"
-                        readonly>
+                        disabled>
                 </td>
 
                 <td>
