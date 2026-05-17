@@ -1,0 +1,119 @@
+.logo {
+    font-size: 2em;
+    user-select: none;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+    padding: 20px 100px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .room-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between cards */
+  }
+  
+  .Single {
+    background-color: #fff; /* Background color */
+    border: 1px solid #ddd; /* Border for separation */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Inner padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none; /* Subtle shadow */
+  }
+  
+  .Single img {
+    width: 100%; /* Responsive image width */
+    height: auto;
+  }
+  
+  h3 {
+    margin-top: 10px; 
+    font-size: 1.2em; 
+    font-weight: bold; 
+    text-align: center;
+  }
+
+  .Double {
+    background-color: #fff; /* Background color */
+    border: 1px solid #ddd; /* Border for separation */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Inner padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .Double img {
+    width: 100%; /* Responsive image width */
+    height: auto;
+  }
+
+  .Triple {
+    background-color: #fff; /* Background color */
+    border: 1px solid #ddd; /* Border for separation */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Inner padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .Triple img {
+    width: 100%; /* Responsive image width */
+    height: auto;
+  }
+
+  .Family {
+    background-color: #fff; /* Background color */
+    border: 1px solid #ddd; /* Border for separation */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Inner padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .Family img {
+    width: 100%; /* Responsive image width */
+    height: auto;
+  }
+  
+  .book-now-button {
+    text-decoration: none;
+    text-align: center; /* Centered text */
+    padding: 10px 20px; /* Button padding */
+    border: none;
+    background-color: #007bff; /* Primary blue color */
+    color: #fff; /* White text */
+    font-size: 1.1em; /* Button font size */
+    cursor: pointer; /* Hover cursor */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.2s ease-in-out; /* Button hover effect */
+  }
+  
+  .book-now-button:hover {
+    background-color: #0069d9; /* Darker blue on hover */
+  }
+  
+  /* Media queries for responsiveness (adjust breakpoints as needed) */
+
+
+

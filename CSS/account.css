@@ -1,0 +1,82 @@
+body {
+    background: #f4f6f9;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.account-container {
+    width: 90%;
+    margin: 130px auto 40px auto;
+}
+
+.account-container h2 {
+    font-size: 32px;
+    color: #222;
+    margin-bottom: 25px;
+    border-left: 6px solid #f4a300;
+    padding-left: 15px;
+}
+
+.booking-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.booking-table th {
+    background: #222;
+    color: white;
+    padding: 18px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.booking-table td {
+    padding: 18px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.booking-table tr:hover {
+    background: #f9f9f9;
+}
+
+.booking-table select,
+.booking-table input {
+    padding: 10px;
+    width: 170px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.update-btn,
+.cancel-btn {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.update-btn {
+    background: #007bff;
+}
+
+.update-btn:hover {
+    background: #0056b3;
+}
+
+.cancel-btn {
+    background: #dc3545;
+}
+
+.cancel-btn:hover {
+    background: #a71d2a;
+}
